@@ -16,9 +16,7 @@ talk is cheap， show your code
 
 举个小栗子🌰
 
-A>B>C三个组件逐层嵌套，每个组件里都包含半句话，在A组件里包含我的个人信息，需要在C组件里显示，要求信息数据不通过B组件传递。
-
-<img src="/Users/admin/Library/Application Support/typora-user-images/image-20210716231943618.png" style="zoom:50%;" />
+假如：A>B>C三个组件逐层嵌套，每个组件里都包含半句话，在A组件里包含我的个人信息，需要在C组件里显示，要求信息数据不通过B组件传递。
 
 
 
@@ -91,7 +89,7 @@ export default function C() {
 
 现在不不光好要传递我的个人信息，还要把我分享的主题在C组件里展示，所以在A组件里又定义了一个context，在C组件里接收到
 
-<img src="/Users/admin/Library/Application Support/typora-user-images/image-20210717214729055.png" alt="image-20210717214729055" style="zoom:50%;" />
+
 
 ```jsx
 //组件A
@@ -145,7 +143,7 @@ export default function C() {
 
 改造代码，我们只需要改变消费组件（也就是C组件）获取值的方式，使用useContext获取A组件传递的值
 
-<img src="/Users/admin/Library/Application Support/typora-user-images/image-20210717221833501.png" alt="image-20210717221833501" style="zoom:50%;" />
+
 
 ```jsx
 import React, { useContext } from "react"
