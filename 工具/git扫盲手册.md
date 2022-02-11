@@ -314,8 +314,16 @@ git branch -m <旧分支名> <新分支名>
 git branch -d <分支名>
 ```
 
-删除本地分支
+删除本地分支,当分支还没推送就用-D强行删除
 
+```
+git push origin --delete remoteBranchName
+
+// 简写
+git push origin :fix/authentication
+
+```
+删除远程分支名
 
 
 **分支命名规范**
