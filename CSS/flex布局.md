@@ -163,7 +163,7 @@ flex 是 flexible 简写，flex 布局就是弹性灵活的布局，现在大部
 
 ### 网格布局
 
-```
+```css
     .Grid {
         display: flex;
       }
@@ -197,11 +197,11 @@ flex 是 flexible 简写，flex 布局就是弹性灵活的布局，现在大部
 
 ### 圣杯布局
 
-```
+```css
       .HolyGrail {
         display: flex;
-        min-height: 100vh;
         flex-direction: column;
+        min-height: 100vh;
       }
       header,
       footer {
@@ -247,7 +247,7 @@ flex 是 flexible 简写，flex 布局就是弹性灵活的布局，现在大部
 
 ### 输入框布局
 
-```
+```css
       .InputAddOn {
         display: flex;
       }
@@ -264,7 +264,7 @@ flex 是 flexible 简写，flex 布局就是弹性灵活的布局，现在大部
 
 ### 悬挂式布局
 
-```
+```css
       .Media {
         display: flex;
         align-items: flex-start;
@@ -282,7 +282,7 @@ flex 是 flexible 简写，flex 布局就是弹性灵活的布局，现在大部
 
 ### 固定布局
 
-```
+```css
       .fixed {
         display: flex;
         min-height: 100vh;

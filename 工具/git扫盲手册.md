@@ -300,6 +300,8 @@ git branch
 
 ```
 git branch <分支名>
+
+-a 查看远程和本地所有分支
 ```
 
 新建一个分支并命名
@@ -347,6 +349,16 @@ git checkout <分支名>
 
 切换到指定分支上
 
+```
+git checkout -b <分支名>
+```
+
+新建一个分支并切换到该分支相当于
+
+```
+git branch <分支名>
+git checkout <分支名>
+```
 
 
 ### git tag 
